@@ -9,6 +9,7 @@ import PrivetRoute from './PrivetRoute';
 import Dashboard from "../components/dashboard/Dashboard";
 import AssetList from "../components/dashboard/asset-list/AssetList";
 import Payment from "../components/page/payment/Payment";
+import AddEmployee from "../components/dashboard/add-employee/AddEmployee";
 
 const router = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
           {
             path: 'asset-list',
             element: <AssetList/>
+          },
+          {
+            path: 'add-employee',
+            element: <AddEmployee/>
           }
      ]
     },

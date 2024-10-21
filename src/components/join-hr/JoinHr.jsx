@@ -233,7 +233,7 @@ const JoinHr = () => {
     id="demo-simple-select"
     {...register('package',{required: true})}
     label="Age"
-    value={''}
+    
   >
     <MenuItem value={'5'}>5 Member in $5</MenuItem>
     <MenuItem value={'8'}>10 Member is $8</MenuItem>

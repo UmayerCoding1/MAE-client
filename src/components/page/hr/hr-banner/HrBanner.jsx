@@ -11,10 +11,10 @@ const HrBanner = () => {
  
 
   return (
-    <div className="mt-5 flex flex-col items-center  justify-between lg:flex-row">
-      <div className="mt-16">
-        <h2 className="text-8xl font-Rozha">Welcome!</h2>
-        <h2 className="text-7xl font-bold uppercase">{name},</h2>
+    <div className="mt-5 flex flex-col items-center p-2 lg:p-0 justify-between flex-col-reverse lg:flex-row">
+      <div className="lg:mt-16">
+        <h2 className=" text-7xl lg:text-8xl font-Rozha">Welcome!</h2>
+        <h2 className=" text-6xl lg:text-7xl font-bold uppercase">{name},</h2>
         <p className=" mt-5 text-xs font-bold ">
           Join our dynamic team! Explore exciting career opportunities, enjoy
           flexible work, comprehensive benefits, <br /> and a supportive culture that
@@ -22,7 +22,7 @@ const HrBanner = () => {
         </p>
       </div>
 
-      <img className="w-[350px] rounded-full mt-16" src={logo} alt="" />
+      <img className="w-[250px] h-[250px]  lg:w-[350px] lg:h-auto rounded-full lg:mt-16" src={logo} alt="" />
     </div>
   );
 };
